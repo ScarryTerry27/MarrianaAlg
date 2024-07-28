@@ -1,0 +1,52 @@
+* риск неблагоприятных последствий постепенно увеличивается с тяжестью и
+продолжительностью гипогликемии ()
+*первый аномально вызванный сенсорный потенциал при концентрации глюкозы в крови
+0,7-2,5 ммоль/л (Koh TH, Aynsley-Green A, Tarbit M, Eyre JA. Neural dysfunction during
+hypoglycaemia. Arch Dis Child (1988) 63(11):1353–8. doi: 10.1136/adc.63.11.1353)
+
+* нейровизуализационные исследования выявляют структурные церебральные
+повреждения, связанные с тяжелой, рецидивирующей или симптоматической
+неонатальной гипогликемией, включая поражения белого вещества преимущественно в
+теменно-затылочных долях, атрофию коры, изменения в глубоких структурах серого
+вещества базальных ганглиев и таламуса, перивентрикулярные поражения,
+паренхиматозное кровоизлияние и ишемические инсульты (Burns CM, Rutherford MA,
+Boardman JP, Cowan FM. Patterns of cerebral injury and neurodevelopmental outcomes after
+symptomatic neonatal hypoglycemia. Pediatrics (2008) 122(1):65–74. doi: 10.1542/peds.2007-
+2822; Nivins S, Kennedy E, Thompson B, Gamble GD, Alsweiler JM, Metcalfe R, et al.
+Associations between neonatal hypoglycaemia and brain volumes, cortical thickness and white
+matter microstructure in mid-childhood: an MRI study. NeuroImage Clin (2022) 33:102943.
+doi: 10.1016/j.nicl.2022.102943)
+
+* Клинические проявления гипогликемического поражения мозга включают детский
+церебральный паралич, эпилепсию, задержку нейроразвития и умственную отсталость,
+микроцефалию, нарушения зрения и слуха (Roeper M, Salimi Dafsari R, Hoermann H,
+Mayatepek E, Kummer S, Meissner T. Risk factors for adverse neurodevelopment in transient or
+persistent congenital hyperinsulinism. Front Endocrinol (Lausanne) (2020) 11:580642.
+doi: 10.3389/fendo.2020.580642)
+
+* Неонатальная гипогликемия коррелирует с повышенным риском плохой исполнительной
+функции (RR 2,32 [95% (ДИ) 1,17–4,59] и плохой зрительно-моторной функции (RR 3,67
+[95% ДИ 1,15–11,69] в возрасте 4,5 лет (McKinlay CJD, Alsweiler JM, Anstice NS,
+Burakevych N, Chakraborty A, Chase JG, et al. Association of neonatal glycemia with
+neurodevelopmental outcomes at 4.5 years. JAMA Pediatr (2017) 171(10):972–83.
+doi: 10.1001/jamapediatrics.2017.1579)
+
+* перинатальные данные 1395 детей, прошедших скрининг глюкозы после рождения и
+оценкой успеваемости в школе. Даже один эпизод гипогликемии &lt;2,5 ммоль/л (&lt;45 мг/дл)
+был связан со снижением успеваемости в школе по грамотности (коэффициент шансов
+(ОШ) 0,62 [95% ДИ 0,45–0,85], а эпизоды &lt;2,2 ммоль/л (&lt;40 мг/дл) были связаны со
+снижением успеваемости по математике (ОШ 0,51 [95% ДИ 0,34–0,78] в возрасте 10 лет
+(Kaiser JR, Bai S, Gibson N, Holland G, Lin TM, Swearingen CJ, et al. Association between
+transient newborn hypoglycemia and fourth-grade achievement test proficiency: a population-
+based study. JAMA Pediatr (2015) 169(10):913–21. doi: 10.1001/jamapediatrics.2015.1631)
+* факторы риска, для которых скрининг уровня глюкозы в крови рекомендуется
+единообразно, является диабет у матери (Working Group of the Swiss Society of
+Neonatology (SSN). Prevention and treatment of hypoglycaemia in neonates with a gestational
+age from 35 0/7 weeks in maternity wards: Swiss society of neonatology guidelines (2020).
+Available at: https://www.neonet.ch/), дети с низкой массой тела при рождении (Wackernagel
+D, Gustafsson A, Edstedt Bonamy AK, Reims A, Ahlsson F, Elfving M, et al. Swedish National
+guideline for prevention and treatment of neonatal hypoglycaemia in newborn infants with
+gestational age &gt;/=35 weeks. Acta Paediatr (2020) 109(1):31–44. doi: 10.1111/apa.14955) и с
+новорожденные с массой тела &gt;90  -го  процентиля или &gt;+2 SDS &gt;4,500 г (Government of
+Western Australia. Child and adolescent health service. hypoglycaemia guideline (2021).
+Available at: https://www.cahs.health.wa.gov.au/)
