@@ -9,14 +9,16 @@ if "page" not in st.session_state:
 
 def show_sidebar():
     with st.sidebar:
-        st.button("🚑 Главная страница", on_click=change_page, kwargs={"page": 1})
-        st.button("🎈 Вторая страница", on_click=change_page, kwargs={"page": 2})
-        st.button("🌡 Третья страница", on_click=change_page, kwargs={"page": 3})
-        st.button("📟 Алгоритм", on_click=change_page, kwargs={"page": 4})
+        st.button("🚑 Введение", on_click=change_page, kwargs={"page": 1})
+        st.button("🎈 Осложнения дисгликемии", on_click=change_page, kwargs={"page": 2})
+        st.button("🌡 Дизайн исследования", on_click=change_page, kwargs={"page": 3})
+        st.button("🎲 Разработанный алгоритм", on_click=change_page, kwargs={"page": 4})
+        st.button("📟 Расчет глюкозы", on_click=change_page, kwargs={"page": 5})
 
 
 def page_1():
-    st.title("Написать тут что то")
+    st.title("🚑 Введение…")
+    st.image("./image/fff.jpeg")
     with open("texts/page1.txt", encoding='utf-8', mode='r') as file:
         text = file.read()
 
@@ -24,13 +26,15 @@ def page_1():
     col1, col2 = st.columns([3, 1])
 
     with col2:
-        st.caption("В.А.Таболин, 1986 г.", unsafe_allow_html=True)
+        st.caption("В.А.Таболин, 1986 г. ", unsafe_allow_html=True)
 
     st.button("Далее 💊", on_click=change_page, kwargs={"page": 2})
 
 
 def page_2():
-    st.title("Тут какой то текст")
+    st.header("🎈 Почему так важно мониторировать гликемию интраоперационно у новорожденных детей?")
+    st.subheader("Обзор литературы.")
+    st.image("./image/ffff.jpeg", width=400)
     with open("texts/page2.txt", encoding='utf-8', mode='r') as file:
         text = file.read()
 
@@ -42,16 +46,16 @@ def page_2():
     hypoglycemia and neurodevelopmental outcomes: Yesterday, today, tomorrow // European
     Journal of Pediatrics.– 2024. – Т.183. – №.3. – С.1113-1119''', unsafe_allow_html=True)
 
-    st.subheader("Какие возможны риски, связанные с дисгликемией…")
+    st.subheader("❗️ Осложнения дисгликемии…")
     col1, col2 = st.columns([7, 3])
-    col1.button("Гипогликемия", on_click=change_other, kwargs={"what": 1})
-    col2.button("Гиперликемия", on_click=change_other, kwargs={"what": 2})
+    col1.button("➖ Гипогликемия", on_click=change_other, kwargs={"what": 1})
+    col2.button("➕ Гиперликемия", on_click=change_other, kwargs={"what": 2})
 
     st.button("Далее 💊", on_click=change_page, kwargs={"page": 3})
 
 
 def page_3():
-    st.title("По результатам нашего клинического рандомизированного исследования сделаны выводы")
+    st.header("🌡 Краткий дизайн исследования:")
     with open("texts/page5.txt", encoding='utf-8', mode='r') as file:
         text = file.read()
 
@@ -61,7 +65,17 @@ def page_3():
 
 
 def page_4():
-    st.title("Разработанный алгоритм")
+    st.header("🎲 По результатам нашего клинического рандомизированного исследования сделаны выводы")
+    with open("texts/page4.txt", encoding='utf-8', mode='r') as file:
+        text = file.read()
+
+    st.write(text)
+
+    st.button("Далее 💊", on_click=change_page, kwargs={"page": 5})
+
+
+def page_5():
+    st.header("📟 Расчет дозы глюкозы, вводимой интраоперационно")
 
     dicti = {"Доношенные и поздние недоношенные свыше 34 нед. гестации: 2,3 мг/кг/мин": (1.15, 1.15),
              "Недоношенные менее 34 нед. гестации": (1.15, 2.3),
@@ -83,7 +97,7 @@ def page_4():
     st.button("🔄 На главную", on_click=change_page, kwargs={"page": 1})
 
 
-router = {1: page_1, 2: page_2, 3: page_3, 4: page_4}
+router = {1: page_1, 2: page_2, 3: page_3, 4: page_4, 5: page_5}
 show_sidebar()
 if not st.session_state["other"]:
     router[st.session_state['page']]()
