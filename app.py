@@ -17,7 +17,7 @@ def show_sidebar():
 
 
 def page_1():
-    st.title("🚑 Введение…")
+    st.markdown("### 🚑 Программа для выбора оптимальной дозы глюкозы у новорожденных во время оперативного вмешательства…")
     st.image("./image/fff.jpeg")
     with open("texts/page1.txt", encoding='utf-8', mode='r') as file:
         text = file.read()
